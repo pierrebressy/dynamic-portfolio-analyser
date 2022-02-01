@@ -1,0 +1,95 @@
+# transactions.yaml 
+
+# list of transactions done on portfolio
+
+# Actions : 
+# - INJECT_CURRENCY transfering money from my swiss account to Interactive Brokers
+# - BUY_CURRENCY    buy a currency with another one (e.g. buy USD with CHF)
+# - BUY_SHARE       buy a ticker (share, ETF) ; the ticker must be referenced in the ticker.yaml file
+
+t2021001:
+    Action: 'INJECT_CURRENCY'
+    Currency: 'CHF'
+    Date: '2021-11-09'
+    Qty: 2500.00
+
+
+t2022002:
+    Action: 'BUY_CURRENCY'
+    Currency: 'USD'
+    Date: '2022-01-06'
+    Qty: 2500.00
+    Comm: 1.98
+    With: 'CHF'
+    Rate: 1.08
+
+t2022004:
+    Action: 'BUY_SHARE'
+    Ticker: 'VT'
+    Currency: 'USD'
+    Date: '2022-01-06'
+    Rate: 106.09
+    Qty: 10
+    Comm: 0.37
+
+t2022009:
+    Action: 'BUY_SHARE'
+    Ticker: 'IH2O.SW'
+    Currency: 'USD'
+    Date: '2022-01-07'
+    Rate: 69.24
+    Qty: 14
+    Comm: 0.40
+
+t2022010:
+    Action: 'BUY_SHARE'
+    Ticker: 'VT'
+    Currency: 'USD'
+    Date: '2022-01-07'
+    Rate: 106.17
+    Qty: 17
+    Comm: 0.38
+t2022015:
+    Action: 'INJECT_CURRENCY'
+    Currency: 'CHF'
+    Date: '2022-01-26'
+    Qty: 4000.00
+
+t2022016:
+    Action: 'BUY_CURRENCY'
+    Currency: 'USD'
+    Date: '2022-01-31'
+    Qty: 3900.00
+    Comm: 2.00
+    With: 'CHF'
+    Rate: 1.073
+
+
+t2022017:
+    Action: 'BUY_SHARE'
+    Ticker: 'INTC'
+    Currency: 'USD'
+    Date: '2022-01-31'
+    Rate: 47.69
+    Qty: 10
+    Comm: 0.37
+
+t2022018:
+    Action: 'BUY_SHARE'
+    Ticker: 'JNJ'
+    Currency: 'USD'
+    Date: '2022-01-31'
+    Rate: 171.50
+    Qty: 10
+    Comm: 0.36
+
+
+t2022021:
+    Action: 'BUY_SHARE'
+    Ticker: 'KO'
+    Currency: 'USD'
+    Date: '2022-01-31'
+    Rate: 60.29
+    Qty: 7
+    Comm: 0.36
+

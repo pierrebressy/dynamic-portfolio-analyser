@@ -1,0 +1,400 @@
+# tickers.yaml 
+
+# description of products (currencies, ETFs, shares...)
+# source : yahoo finance
+
+# ---- CURRENCIES ----
+
+CHF:
+    Comment: 'Swiss francs'
+    Currency: 'CHF'
+    Type: 'Cash'
+    Support: 'Currency'
+ 
+USD:
+    Comment: 'US Dollar'
+    Currency: 'USD'
+    Type: 'Cash'
+    Support: 'Currency'
+
+
+# ---- UBS Funds ----
+  
+WZES.HM:
+    Company: 'UBS'
+    Description: ''
+    Name: 'UBS (Lux) Strategy Fund - Growth Sustainable (CHF) P-acc'
+    ISIN: 'LU0033034892'
+    Currency: 'CHF'
+    Type: 'CHF Fund'
+    Support: 'Product'
+    Sectors:
+        Health care: 23
+        Consumer Stapples: 15
+        Financials: 15
+        Industrials: 14
+        Consumer Discretionary: 8
+        Basic Materials: 4
+        Technology: 14
+        Real Estate: 
+        Communication: 3
+        Utilities: 1
+        Energy: 
+        Cash/Derivatives: 2
+    Markets:
+        USA: 33
+        EUROPE: 55
+        Pacific: 1
+        Emerging markets: 2
+        Middle East: 
+        Other: 9
+
+UBSSU65.SW:
+    Company: 'UBS'
+    Description: 'The fund invests in a well diversified selection of bonds denominated in CHF, equities and real estate with a focus on Switzerland, as well as in bonds and equities in foreign currencies.'
+    Name: 'UBS (CH) Suisse - 65 (CHF) P-dist'
+    ISIN: 'CH0109739000'
+    Currency: 'CHF'
+    Type: 'CHF Fund'
+    Support: 'Product'
+    Sectors:
+        Health care: 24
+        Consumer Stapples: 16
+        Financials: 18
+        Industrials: 11
+        Consumer Discretionary: 7
+        Basic Materials: 6
+        Technology: 8
+        Real Estate: 
+        Communication: 3
+        Utilities: 
+        Energy: 5
+        Cash/Derivatives: 2
+    Markets:
+        USA: 16
+        EUROPE: 82
+        Pacific: 2
+        Emerging markets: 
+        Middle East: 
+        Other: 
+
+
+
+# ---- ETF ----
+  
+CHSPI.SW:
+    Company: 'iShares'
+    Description: 'The Fund seeks to track the performance of an index composed of large, mid and small capitalisation equities with a primary listing on the SIX Swiss Exchange.'
+    Name: 'iShares Core SPI® ETF (CH)'
+    ISIN: 'CH0237935652'
+    Currency: 'CHF'
+    Type: 'ETF CHF'
+    Support: 'Product'
+    Sectors:
+        Health care: 34.4
+        Consumer Stapples: 22.2
+        Financials: 14.8
+        Industrials: 11.3
+        Consumer Discretionary: 7.7
+        Basic Materials: 
+        Technology: 5.1
+        Real Estate: 2.3
+        Communication: 1.2
+        Utilities: 0.2
+        Energy: 
+        Cash/Derivatives: 0.1
+    Markets:
+        USA: 
+        EUROPE: 100.0
+        Pacific: 
+        Emerging markets: 
+        Middle East: 
+        Other: 
+
+VT:
+    Company: 'Vanguard'
+    Description: 'Seeks to track the performance of the FTSE Global All Cap Index, which covers both well-established and still-developing markets.'
+    Name: 'Vanguard Total World Stock ETF'
+    ISIN: 'US9220427424'
+    Currency: 'USD'
+    Type: 'ETF USD'
+    Support: 'Product'
+    Sectors:
+        Health care: 11.0
+        Consumer Stapples: 13.0
+        Financials: 17.0
+        Industrials: 11.0
+        Consumer Discretionary: 6.0
+        Basic Materials: 5.0
+        Technology: 27.0
+        Real Estate: 
+        Communication: 2.0
+        Utilities: 3.0
+        Energy: 4.0
+        Cash/Derivatives: 
+    Markets:
+        USA: 63.0
+        EUROPE: 16.0
+        Pacific: 10.6
+        Emerging markets: 10.0
+        Middle East: 0.2
+        Other: 0.2
+
+
+LUXU.L:
+    Company: 'Amundi Luxembourg SA'
+    Description: 'Seeks to track the performance of the S&P Global Luxury'
+    Name: 'AMUNDI S&P GLOBAL LUXURY UCITS ETF - USD (C)'
+    ISIN: 'LU1681048713'
+    Currency: 'USD'
+    Type: 'ETF USD'
+    Support: 'Product'
+    Sectors:
+        Health care: 
+        Consumer Stapples: 17.0
+        Financials: 
+        Industrials: 
+        Consumer Discretionary: 83.0
+        Basic Materials: 
+        Technology: 
+        Real Estate: 
+        Communication: 
+        Utilities: 
+        Energy: 
+        Cash/Derivatives: 
+    Markets:
+        USA: 39.02
+        EUROPE: 53.29
+        Pacific: 5.75
+        Emerging markets: 
+        Middle East: 
+        Other: 1.94
+
+IH2O.SW:
+    Company: 'iShares'
+    Description: 'The Fund seeks to track the performance of an index composed of 50 of the largest global companies engaged in water related businesses.'
+    Name: 'iShares Global Water UCITS ETF'
+    ISIN: 'IE00B1TXK627'
+    Currency: 'USD'
+    Type: 'ETF USD'
+    Support: 'Product'
+    Sectors:
+        Health care: 
+        Consumer Stapples: 
+        Financials: 
+        Industrials: 46.85
+        Consumer Discretionary: 0.05
+        Basic Materials: 2.96
+        Technology: 5.53
+        Real Estate: 
+        Communication: 
+        Utilities: 44.19
+        Energy: 0.35
+        Cash/Derivatives: 0.08
+    Markets:
+        USA: 100.0
+        EUROPE: 
+        Pacific: 
+        Emerging markets: 
+        Middle East: 
+        Other: 
+
+
+IEFA:
+    Company: 'iShares'
+    Description: 'The iShares Core MSCI EAFE ETF seeks to track the investment results of an index composed of large-, mid- and small-capitalization developed market equities, excluding the U.S. and Canada.'
+    Name: 'iShares Core MSCI EAFE ETF'
+    ISIN: ''
+    CUSIP: '46432F842'
+    Currency: 'USD'
+    Type: 'ETF USD'
+    Support: 'Product'
+    Sectors:
+        Health care: 11.4
+        Consumer Stapples: 9.5
+        Financials: 16.4
+        Industrials: 17.2
+        Consumer Discretionary: 12.7
+        Basic Materials: 7.9
+        Technology: 9.4
+        Real Estate: 4.2
+        Communication: 4.5
+        Utilities: 3.3
+        Energy: 3.3
+        Cash/Derivatives: 
+    Markets:
+        USA: 
+        EUROPE: 60.0
+        Pacific: 30.0
+        Emerging markets: 
+        Middle East: 
+        Other: 10.0
+
+IEMG:
+    Company: 'iShares'
+    Description: 'The iShares Core MSCI Emerging Markets ETF seeks to track the investment results of an index composed of large-, mid- and small-capitalization emerging market equities.'
+    Name: 'iShares Core MSCI Emerging Markets ETF'
+    ISIN: ''
+    CUSIP: '46434G103'
+    Currency: 'USD'
+    Type: 'ETF USD'
+    Support: 'Product'
+    Sectors:
+        Health care: 4.5
+        Consumer Stapples: 5.8
+        Financials: 18.8
+        Industrials: 6.3
+        Consumer Discretionary: 13.1
+        Basic Materials: 9.1
+        Technology: 22.3
+        Real Estate: 2.5
+        Communication: 9.7
+        Utilities: 2.5
+        Energy: 5.1
+        Cash/Derivatives: 0.3
+    Markets:
+        USA: 
+        EUROPE: 
+        Pacific: 
+        Emerging markets: 100.0
+        Middle East: 
+        Other: 
+
+# ---- SHARES FOR DIVIDENDES
+    
+INTC:
+    Company: 'Intel Corporation'
+    Description: 'Intel Corporation engages in the design, manufacture, and sale of computer products and technologies worldwide.'
+    Currency: 'USD'
+    Type: 'ACTION US'
+    Support: 'Product'
+    Sectors:
+        Health care: 
+        Consumer Stapples: 
+        Financials: 
+        Industrials: 
+        Consumer Discretionary: 
+        Basic Materials: 
+        Technology: 100
+        Real Estate: 
+        Communication: 
+        Utilities: 
+        Energy: 
+        Cash/Derivatives: 
+    Markets:
+        USA: 100
+        EUROPE: 
+        Pacific: 
+        Emerging markets: 
+        Middle East: 
+        Other: 
+    
+JNJ:
+    Company: 'Johnson & Johnson'
+    Description: 'Johnson & Johnson researches and develops, manufactures, and sells a range of products in the health care field worldwide.'
+    Currency: 'USD'
+    Type: 'ACTION US'
+    Support: 'Product'
+    Sectors:
+        Health care: 
+        Consumer Stapples: 
+        Financials: 
+        Industrials: 100
+        Consumer Discretionary: 
+        Basic Materials: 
+        Technology: 
+        Real Estate: 
+        Communication: 
+        Utilities: 
+        Energy: 
+        Cash/Derivatives: 
+    Markets:
+        USA: 100
+        EUROPE: 
+        Pacific: 
+        Emerging markets: 
+        Middle East: 
+        Other: 
+    
+O:
+    Company: 'Realty Income Corporation'
+    Description: 'Realty Income, The Monthly Dividend Company, is an S&P 500 company dedicated to providing stockholders with dependable monthly income.'
+    Currency: 'USD'
+    Type: 'ACTION US'
+    Support: 'Product'
+    Sectors:
+        Health care: 
+        Consumer Stapples: 
+        Financials: 
+        Industrials: 
+        Consumer Discretionary: 
+        Basic Materials: 
+        Technology: 
+        Real Estate: 
+        Communication: 100
+        Utilities: 
+        Energy: 
+        Cash/Derivatives: 
+    Markets:
+        USA: 100
+        EUROPE: 
+        Pacific: 
+        Emerging markets: 
+        Middle East: 
+        Other: 
+
+    
+KO:
+    Company: 'The Coca-Cola Company'
+    Description: 'The Coca-Cola Company, a beverage company, manufactures, markets, and sells various nonalcoholic beverages worldwide.'
+    Currency: 'USD'
+    Type: 'ACTION US'
+    Support: 'Product'
+    Sectors:
+        Health care: 
+        Consumer Stapples: 
+        Financials: 
+        Industrials: 
+        Consumer Discretionary: 100
+        Basic Materials: 
+        Technology: 
+        Real Estate: 
+        Communication: 
+        Utilities: 
+        Energy: 
+        Cash/Derivatives: 
+    Markets:
+        USA: 100
+        EUROPE: 
+        Pacific: 
+        Emerging markets: 
+        Middle East: 
+        Other: 
+
+    
+WPC:
+    Company: 'W. P. Carey Inc.'
+    Description: 'For nearly five decades, W. P. Carey has invested in high-quality single-tenant industrial, warehouse, office, retail and self-storage properties subject to long-term net leases with built-in rent escalators.'
+    Currency: 'USD'
+    Type: 'ACTION US'
+    Support: 'Product'
+    Sectors:
+        Health care: 
+        Consumer Stapples: 
+        Financials: 100
+        Industrials: 
+        Consumer Discretionary: 
+        Basic Materials: 
+        Technology: 
+        Real Estate: 
+        Communication: 
+        Utilities: 
+        Energy: 
+        Cash/Derivatives: 
+    Markets:
+        USA: 100
+        EUROPE: 
+        Pacific: 
+        Emerging markets: 
+        Middle East: 
+        Other: 
